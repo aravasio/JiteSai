@@ -5,7 +5,7 @@
 
 target 'JiteSai' do
 pod 'GoogleMaps'
-
+pod 'RestKit'
 end
 
 target 'JiteSaiTests' do
