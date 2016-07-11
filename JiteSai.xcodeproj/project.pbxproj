@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A954629B1D333C4100C939C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A954629A1D333C4100C939C6 /* AppDelegate.swift */; };
+		A954629D1D333C4100C939C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A954629C1D333C4100C939C6 /* ViewController.swift */; };
+		A95462A01D333C4100C939C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A954629E1D333C4100C939C6 /* Main.storyboard */; };
+		A95462A21D333C4100C939C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95462A11D333C4100C939C6 /* Assets.xcassets */; };
+		A95462A51D333C4100C939C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95462A31D333C4100C939C6 /* LaunchScreen.storyboard */; };
+		A95462B01D333C4100C939C6 /* JiteSaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95462AF1D333C4100C939C6 /* JiteSaiTests.swift */; };
+		A95462BB1D333C4100C939C6 /* JiteSaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95462BA1D333C4100C939C6 /* JiteSaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A95462AC1D333C4100C939C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A954628F1D333C4100C939C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95462961D333C4100C939C6;
+			remoteInfo = JiteSai;
+		};
+		A95462B71D333C4100C939C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A954628F1D333C4100C939C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95462961D333C4100C939C6;
+			remoteInfo = JiteSai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A95462971D333C4100C939C6 /* JiteSai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiteSai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A954629A1D333C4100C939C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A954629C1D333C4100C939C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A954629F1D333C4100C939C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A95462A11D333C4100C939C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A95462A41D333C4100C939C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A95462A61D333C4100C939C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95462AB1D333C4100C939C6 /* JiteSaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiteSaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95462AF1D333C4100C939C6 /* JiteSaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiteSaiTests.swift; sourceTree = "<group>"; };
+		A95462B11D333C4100C939C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95462B61D333C4100C939C6 /* JiteSaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiteSaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95462BA1D333C4100C939C6 /* JiteSaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiteSaiUITests.swift; sourceTree = "<group>"; };
+		A95462BC1D333C4100C939C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95462941D333C4100C939C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95462A81D333C4100C939C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95462B31D333C4100C939C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A954628E1D333C4100C939C6 = {
+			isa = PBXGroup;
+			children = (
+				A95462991D333C4100C939C6 /* JiteSai */,
+				A95462AE1D333C4100C939C6 /* JiteSaiTests */,
+				A95462B91D333C4100C939C6 /* JiteSaiUITests */,
+				A95462981D333C4100C939C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95462981D333C4100C939C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95462971D333C4100C939C6 /* JiteSai.app */,
+				A95462AB1D333C4100C939C6 /* JiteSaiTests.xctest */,
+				A95462B61D333C4100C939C6 /* JiteSaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95462991D333C4100C939C6 /* JiteSai */ = {
+			isa = PBXGroup;
+			children = (
+				A954629A1D333C4100C939C6 /* AppDelegate.swift */,
+				A954629C1D333C4100C939C6 /* ViewController.swift */,
+				A954629E1D333C4100C939C6 /* Main.storyboard */,
+				A95462A11D333C4100C939C6 /* Assets.xcassets */,
+				A95462A31D333C4100C939C6 /* LaunchScreen.storyboard */,
+				A95462A61D333C4100C939C6 /* Info.plist */,
+			);
+			path = JiteSai;
+			sourceTree = "<group>";
+		};
+		A95462AE1D333C4100C939C6 /* JiteSaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A95462AF1D333C4100C939C6 /* JiteSaiTests.swift */,
+				A95462B11D333C4100C939C6 /* Info.plist */,
+			);
+			path = JiteSaiTests;
+			sourceTree = "<group>";
+		};
+		A95462B91D333C4100C939C6 /* JiteSaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A95462BA1D333C4100C939C6 /* JiteSaiUITests.swift */,
+				A95462BC1D333C4100C939C6 /* Info.plist */,
+			);
+			path = JiteSaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95462961D333C4100C939C6 /* JiteSai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95462BF1D333C4100C939C6 /* Build configuration list for PBXNativeTarget "JiteSai" */;
+			buildPhases = (
+				A95462931D333C4100C939C6 /* Sources */,
+				A95462941D333C4100C939C6 /* Frameworks */,
+				A95462951D333C4100C939C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiteSai;
+			productName = JiteSai;
+			productReference = A95462971D333C4100C939C6 /* JiteSai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A95462AA1D333C4100C939C6 /* JiteSaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95462C21D333C4100C939C6 /* Build configuration list for PBXNativeTarget "JiteSaiTests" */;
+			buildPhases = (
+				A95462A71D333C4100C939C6 /* Sources */,
+				A95462A81D333C4100C939C6 /* Frameworks */,
+				A95462A91D333C4100C939C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95462AD1D333C4100C939C6 /* PBXTargetDependency */,
+			);
+			name = JiteSaiTests;
+			productName = JiteSaiTests;
+			productReference = A95462AB1D333C4100C939C6 /* JiteSaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A95462B51D333C4100C939C6 /* JiteSaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95462C51D333C4100C939C6 /* Build configuration list for PBXNativeTarget "JiteSaiUITests" */;
+			buildPhases = (
+				A95462B21D333C4100C939C6 /* Sources */,
+				A95462B31D333C4100C939C6 /* Frameworks */,
+				A95462B41D333C4100C939C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95462B81D333C4100C939C6 /* PBXTargetDependency */,
+			);
+			name = JiteSaiUITests;
+			productName = JiteSaiUITests;
+			productReference = A95462B61D333C4100C939C6 /* JiteSaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A954628F1D333C4100C939C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aravasio;
+				TargetAttributes = {
+					A95462961D333C4100C939C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A95462AA1D333C4100C939C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A95462961D333C4100C939C6;
+					};
+					A95462B51D333C4100C939C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A95462961D333C4100C939C6;
+					};
+				};
+			};
+			buildConfigurationList = A95462921D333C4100C939C6 /* Build configuration list for PBXProject "JiteSai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A954628E1D333C4100C939C6;
+			productRefGroup = A95462981D333C4100C939C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95462961D333C4100C939C6 /* JiteSai */,
+				A95462AA1D333C4100C939C6 /* JiteSaiTests */,
+				A95462B51D333C4100C939C6 /* JiteSaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95462951D333C4100C939C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95462A51D333C4100C939C6 /* LaunchScreen.storyboard in Resources */,
+				A95462A21D333C4100C939C6 /* Assets.xcassets in Resources */,
+				A95462A01D333C4100C939C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95462A91D333C4100C939C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95462B41D333C4100C939C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95462931D333C4100C939C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A954629D1D333C4100C939C6 /* ViewController.swift in Sources */,
+				A954629B1D333C4100C939C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95462A71D333C4100C939C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95462B01D333C4100C939C6 /* JiteSaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95462B21D333C4100C939C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95462BB1D333C4100C939C6 /* JiteSaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A95462AD1D333C4100C939C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95462961D333C4100C939C6 /* JiteSai */;
+			targetProxy = A95462AC1D333C4100C939C6 /* PBXContainerItemProxy */;
+		};
+		A95462B81D333C4100C939C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95462961D333C4100C939C6 /* JiteSai */;
+			targetProxy = A95462B71D333C4100C939C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A954629E1D333C4100C939C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A954629F1D333C4100C939C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A95462A31D333C4100C939C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95462A41D333C4100C939C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A95462BD1D333C4100C939C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95462BE1D333C4100C939C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95462C01D333C4100C939C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiteSai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aravasio.JiteSai.JiteSai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A95462C11D333C4100C939C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiteSai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aravasio.JiteSai.JiteSai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A95462C31D333C4100C939C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiteSaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aravasio.JiteSai.JiteSaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiteSai.app/JiteSai";
+			};
+			name = Debug;
+		};
+		A95462C41D333C4100C939C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiteSaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aravasio.JiteSai.JiteSaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiteSai.app/JiteSai";
+			};
+			name = Release;
+		};
+		A95462C61D333C4100C939C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiteSaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aravasio.JiteSai.JiteSaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiteSai;
+			};
+			name = Debug;
+		};
+		A95462C71D333C4100C939C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiteSaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aravasio.JiteSai.JiteSaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiteSai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95462921D333C4100C939C6 /* Build configuration list for PBXProject "JiteSai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95462BD1D333C4100C939C6 /* Debug */,
+				A95462BE1D333C4100C939C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95462BF1D333C4100C939C6 /* Build configuration list for PBXNativeTarget "JiteSai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95462C01D333C4100C939C6 /* Debug */,
+				A95462C11D333C4100C939C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A95462C21D333C4100C939C6 /* Build configuration list for PBXNativeTarget "JiteSaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95462C31D333C4100C939C6 /* Debug */,
+				A95462C41D333C4100C939C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A95462C51D333C4100C939C6 /* Build configuration list for PBXNativeTarget "JiteSaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95462C61D333C4100C939C6 /* Debug */,
+				A95462C71D333C4100C939C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A954628F1D333C4100C939C6 /* Project object */;
+}
