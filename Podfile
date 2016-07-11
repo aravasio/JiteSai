@@ -6,6 +6,7 @@
 target 'JiteSai' do
 pod 'GoogleMaps'
 pod 'RestKit'
+pod 'Gloss'
 end
 
 target 'JiteSaiTests' do
