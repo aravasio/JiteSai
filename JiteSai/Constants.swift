@@ -10,9 +10,6 @@ import Foundation
 
 struct URL {
     static let base = "http://localhost:8080"
-}
-
-struct ServiceURL {
     static let authenticate = "/api/v1/auth"
     static let register = "/api/v1/register"
     static let places = "/api/v1/places"

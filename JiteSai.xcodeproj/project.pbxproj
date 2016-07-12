@@ -15,9 +15,10 @@
 		A95462B01D333C4100C939C6 /* JiteSaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95462AF1D333C4100C939C6 /* JiteSaiTests.swift */; };
 		A95462BB1D333C4100C939C6 /* JiteSaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95462BA1D333C4100C939C6 /* JiteSaiUITests.swift */; };
 		A95E322D1D341CCB00D33F30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E322C1D341CCB00D33F30 /* Constants.swift */; };
-		A95E322F1D341EAA00D33F30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E322E1D341EAA00D33F30 /* User.swift */; };
-		A95E32311D341FD300D33F30 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E32301D341FD300D33F30 /* Location.swift */; };
-		A95E32331D34213D00D33F30 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E32321D34213D00D33F30 /* Place.swift */; };
+		A95E32391D34364C00D33F30 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E32361D34364C00D33F30 /* Location.swift */; };
+		A95E323A1D34364C00D33F30 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E32371D34364C00D33F30 /* Place.swift */; };
+		A95E323B1D34364C00D33F30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E32381D34364C00D33F30 /* User.swift */; };
+		A95E323D1D34369300D33F30 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E323C1D34369300D33F30 /* RestManager.swift */; };
 		F60B7D304D0F9D195B32AB8B /* Pods_JiteSai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FF1429520E799BFF2A8169 /* Pods_JiteSai.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +56,10 @@
 		A95462BA1D333C4100C939C6 /* JiteSaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiteSaiUITests.swift; sourceTree = "<group>"; };
 		A95462BC1D333C4100C939C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95E322C1D341CCB00D33F30 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		A95E322E1D341EAA00D33F30 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A95E32301D341FD300D33F30 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		A95E32321D34213D00D33F30 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		A95E32361D34364C00D33F30 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Models/Location.swift; sourceTree = "<group>"; };
+		A95E32371D34364C00D33F30 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = Models/Place.swift; sourceTree = "<group>"; };
+		A95E32381D34364C00D33F30 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		A95E323C1D34369300D33F30 /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
 		BBADF3EEDDC6A18389708F89 /* Pods-JiteSai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiteSai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiteSai/Pods-JiteSai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 		A95462991D333C4100C939C6 /* JiteSai */ = {
 			isa = PBXGroup;
 			children = (
+				A95E32341D3435F300D33F30 /* REST-Tools */,
 				A95E322B1D33F24F00D33F30 /* Models */,
 				A954629A1D333C4100C939C6 /* AppDelegate.swift */,
 				A954629C1D333C4100C939C6 /* MapViewController.swift */,
@@ -153,11 +156,19 @@
 		A95E322B1D33F24F00D33F30 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A95E322E1D341EAA00D33F30 /* User.swift */,
-				A95E32301D341FD300D33F30 /* Location.swift */,
-				A95E32321D34213D00D33F30 /* Place.swift */,
+				A95E32361D34364C00D33F30 /* Location.swift */,
+				A95E32371D34364C00D33F30 /* Place.swift */,
+				A95E32381D34364C00D33F30 /* User.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		A95E32341D3435F300D33F30 /* REST-Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A95E323C1D34369300D33F30 /* RestManager.swift */,
+			);
+			name = "REST-Tools";
 			sourceTree = "<group>";
 		};
 		AD3F599BF0846384FB1A1DF3 /* Pods */ = {
@@ -351,12 +362,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95E322F1D341EAA00D33F30 /* User.swift in Sources */,
 				A954629D1D333C4100C939C6 /* MapViewController.swift in Sources */,
-				A95E32311D341FD300D33F30 /* Location.swift in Sources */,
-				A95E32331D34213D00D33F30 /* Place.swift in Sources */,
 				A954629B1D333C4100C939C6 /* AppDelegate.swift in Sources */,
+				A95E323B1D34364C00D33F30 /* User.swift in Sources */,
+				A95E323D1D34369300D33F30 /* RestManager.swift in Sources */,
+				A95E32391D34364C00D33F30 /* Location.swift in Sources */,
 				A95E322D1D341CCB00D33F30 /* Constants.swift in Sources */,
+				A95E323A1D34364C00D33F30 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
