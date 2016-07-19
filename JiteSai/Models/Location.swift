@@ -10,19 +10,40 @@ import Foundation
 import SwiftyJSON
 
 class Location {
-    
-//    private let latitude: NSInteger
-//    private let longitude: NSInteger
+
+    internal private(set) var latitude: Double!
+    internal private(set) var longitude: Double!
+    internal private(set) var name: String!
+    internal private(set) var id: String!
     
     required init?(json: JSON) {
         
-//        guard let latitude: NSInteger = "latitude" <~~ json
-//            else { return nil }
-//        
-//        guard let longitude: NSInteger = "longitude" <~~ json
-//            else { return nil }
+        if ( json["location"]["lat"] != nil && !json["location"]["lat"].doubleValue.isNaN ) {
+            self.latitude = json["location"]["lat"].double!
+        } else {
+            return nil
+        }
         
-//        self.latitude = latitude
-//        self.longitude = longitude
+        if ( json["location"]["lng"] != nil && !json["location"]["lng"].doubleValue.isNaN ) {
+            self.longitude = json["location"]["lng"].double!
+        } else {
+            return nil
+        }
+        
+        if ( json["name"] != nil && !json["name"].stringValue.isEmpty ) {
+            self.name = json["name"].string!
+        } else {
+            return nil
+        }
+        
+        if ( json["id"] != nil && !json["id"].stringValue.isEmpty ) {
+            self.id = json["id"].string!
+        } else {
+            return nil
+        }
+    }
+    
+    func _latitude() -> Double {
+        return self.latitude
     }
 }
