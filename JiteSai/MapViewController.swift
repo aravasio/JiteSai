@@ -15,6 +15,7 @@ class MapViewController: UIViewController {
     
     private var rest = RestManager.sharedInstance
     private var locations: Array<Location> = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -38,6 +39,7 @@ class MapViewController: UIViewController {
         rest.getLocations( token, completionHandler: { elementsIn, error in
             if error.isEmpty {
                 for element in elementsIn["results"] {
+
                     if let location = Location(json: element.1) {
                         self.locations.append(location)
                         let coords = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
