@@ -9,19 +9,24 @@
 import UIKit
 import GoogleMaps
 
-class MapViewController: UIViewController {
+class MainViewController: UIViewController, GMSMapViewDelegate {
 
     @IBOutlet var MapView: GMSMapView!
+    @IBOutlet weak var OverlayView: UIView!
+    
+    @IBOutlet weak var locationNameLabel: UILabel!
+    @IBOutlet weak var locationLatitudeLabel: UILabel!
+    @IBOutlet weak var locationLongitudeLabel: UILabel!
     
     private var rest = RestManager.sharedInstance
     private var locations: Array<Location> = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.OverlayView.hidden = true
+        self.MapView.delegate = self
         
-        let camera = GMSCameraPosition.cameraWithLatitude(35.7090259,
-                                                          longitude: 139.7319925, zoom: 16)
-        self.MapView.camera = camera
+        setupCamera()
         
         rest.validateUser("test@test.com", password: "testpwd", completionHandler: { isValid, token in
 
@@ -67,5 +72,50 @@ class MapViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    func mapView(mapView: GMSMapView, didTapMarker marker: GMSMarker) -> Bool {
+        
+        if let location = (self.locations.filter{ $0.name == marker.title }).first {
+            
+            locationNameLabel.text = "Name: " + location.name
+            locationLongitudeLabel.text = "Longitude: " + location.longitude.description
+            locationLatitudeLabel.text = "Latitude: " + location.latitude.description
+            showOverlay()
+            
+        }
+        return true
+    }
+    
+    @IBAction func closeOverlayButtonPressed(sender: UIButton) {
+        hideOverlay()
+    }
+    
+    // MARK: Utility methods
+    
+    private func setupCamera() {
+        let camera = GMSCameraPosition.cameraWithLatitude(35.7090259, longitude: 139.7319925, zoom: 13)
+        self.MapView.camera = camera
+    }
+    
+    private func showOverlay() {
+        
+        // TODO: Maybe I can find a way to de-state this operation into something more generic?
+        self.OverlayView.hidden = false
+        self.OverlayView.transform = CGAffineTransformTranslate(self.OverlayView.transform, 0, self.OverlayView.frame.size.height)
+        UIView.animateWithDuration(0.5, delay: 0.0, options: [], animations: {
+            self.OverlayView.transform = CGAffineTransformIdentity
+            }, completion: nil)
+    }
+    
+    private func hideOverlay() {
+        
+        // TODO: Maybe I can find a way to de-state this operation into something more generic?
+//        self.OverlayView.transform = CGAffineTransformTranslate(self.OverlayView.transform, 0, 0)
+        self.OverlayView.transform = CGAffineTransformIdentity
+        UIView.animateWithDuration(0.5, delay: 0.0, options: [], animations: {
+            self.OverlayView.transform = CGAffineTransformTranslate(self.OverlayView.transform, 0, self.OverlayView.frame.size.height)
+            }, completion: { _ in
+                self.OverlayView.hidden = true
+        })
+    }
 }
 
